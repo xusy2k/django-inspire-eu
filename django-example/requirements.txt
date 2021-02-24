@@ -1,0 +1,6 @@
+# Your app requirements.
+-r ../requirements_test.txt
+Django>=2,<3
+
+# Your app in editable mode.
+-e ../

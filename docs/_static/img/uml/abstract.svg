@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="361px" preserveAspectRatio="none" style="width:660px;height:361px;" version="1.1" viewBox="0 0 660 361" width="660px" zoomAndPan="magnify"><defs><filter height="300%" id="f62hyyh67xa8z" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="48" x="599.5" y="9.2822">Last Mod:</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="56" x="591.5" y="20.9229">2021-02-20</text><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="88" x="279.75" y="39.9893">Abstract</text><!--MD5=[f695a245c2d04d6aaae033ad46e60387]
+class BaseInspireEUModel--><rect codeLine="12" fill="#FEFECE" filter="url(#f62hyyh67xa8z)" height="60.8047" id="BaseInspireEUModel" style="stroke:#A80036;stroke-width:1.5;" width="158" x="7" y="63.7344"/><ellipse cx="22" cy="79.7344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M22.1094,75.0781 L20.9531,80.1563 L23.2813,80.1563 L22.1094,75.0781 Z M20.625,72.8438 L23.6094,72.8438 L26.9688,85.2344 L24.5156,85.2344 L23.75,82.1719 L20.4688,82.1719 L19.7188,85.2344 L17.2813,85.2344 L20.625,72.8438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="126" x="36" y="83.8887">BaseInspireEUModel</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="164" y1="95.7344" y2="95.7344"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="164" y1="103.7344" y2="103.7344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="13" y="117.9448">(Default: Empty)</text><!--MD5=[75430099834887034d36f3efdb02bb45]
+class Identifier--><rect codeLine="16" fill="#FEFECE" filter="url(#f62hyyh67xa8z)" height="86.4141" id="Identifier" style="stroke:#A80036;stroke-width:1.5;" width="167" x="199.5" y="51.2344"/><ellipse cx="250.75" cy="67.2344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M250.8594,62.5781 L249.7031,67.6563 L252.0313,67.6563 L250.8594,62.5781 Z M249.375,60.3438 L252.3594,60.3438 L255.7188,72.7344 L253.2656,72.7344 L252.5,69.6719 L249.2188,69.6719 L248.4688,72.7344 L246.0313,72.7344 L249.375,60.3438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="271.25" y="71.3887">Identifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="200.5" x2="365.5" y1="83.2344" y2="83.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="207.5" y="91.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="219.5" y="97.4448">local_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="219.5" y="110.2495">version_id</text><polygon fill="none" points="210.5,114.8438,214.5,118.8438,210.5,122.8438,206.5,118.8438" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="219.5" y="123.0542">namespace: Namespace</text><line style="stroke:#A80036;stroke-width:1.5;" x1="200.5" x2="365.5" y1="129.6484" y2="129.6484"/><!--MD5=[7aa4bff17b747d5e50ff4de1b3c3f4aa]
+class DataLifeCycleInfo--><rect codeLine="22" fill="#FEFECE" filter="url(#f62hyyh67xa8z)" height="73.6094" id="DataLifeCycleInfo" style="stroke:#A80036;stroke-width:1.5;" width="156" x="8" y="235.2344"/><ellipse cx="29.75" cy="251.2344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M29.8594,246.5781 L28.7031,251.6563 L31.0313,251.6563 L29.8594,246.5781 Z M28.375,244.3438 L31.3594,244.3438 L34.7188,256.7344 L32.2656,256.7344 L31.5,253.6719 L28.2188,253.6719 L27.4688,256.7344 L25.0313,256.7344 L28.375,244.3438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="109" x="45.25" y="255.3887">DataLifeCycleInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="9" x2="163" y1="267.2344" y2="267.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="16" y="275.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="28" y="281.4448">begin_lifespan_version</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="28" y="294.2495">end_lifespan_version</text><line style="stroke:#A80036;stroke-width:1.5;" x1="9" x2="163" y1="300.8438" y2="300.8438"/><!--MD5=[d88265804c91b953ca42d31881bc3ef9]
+class AbstractGeographicalName--><rect codeLine="29" fill="#FEFECE" filter="url(#f62hyyh67xa8z)" height="150.4375" id="AbstractGeographicalName" style="stroke:#A80036;stroke-width:1.5;" width="447" x="199.5" y="197.2344"/><ellipse cx="333.25" cy="213.2344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M333.3594,208.5781 L332.2031,213.6563 L334.5313,213.6563 L333.3594,208.5781 Z M331.875,206.3438 L334.8594,206.3438 L338.2188,218.7344 L335.7656,218.7344 L335,215.6719 L331.7188,215.6719 L330.9688,218.7344 L328.5313,218.7344 L331.875,206.3438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="171" x="353.75" y="217.3887">AbstractGeographicalName</text><line style="stroke:#A80036;stroke-width:1.5;" x1="200.5" x2="645.5" y1="229.2344" y2="229.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="219.5" y="243.4448">language</text><polygon fill="none" points="210.5,248.0391,214.5,252.0391,210.5,256.0391,206.5,252.0391" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="307" x="219.5" y="256.2495">nativeness: CodeListValue.code_list=NativenessValue</text><polygon fill="none" points="210.5,260.8438,214.5,264.8438,210.5,268.8438,206.5,264.8438" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="326" x="219.5" y="269.0542">name_status: CodeListValue.code_list=NameStatusValue</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="219.5" y="281.8589">source_of_name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="219.5" y="294.6636">pronunciation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="219.5" y="307.4683">spelling</text><polygon fill="none" points="210.5,312.0625,214.5,316.0625,210.5,320.0625,206.5,316.0625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="414" x="219.5" y="320.2729">grammatical_gender: CodeListValue.code_list=GrammaticalGenderValue</text><polygon fill="none" points="210.5,324.8672,214.5,328.8672,210.5,332.8672,206.5,328.8672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="421" x="219.5" y="333.0776">grammatical_number: CodeListValue.code_list=GrammaticalNumberValue</text><line style="stroke:#A80036;stroke-width:1.5;" x1="200.5" x2="645.5" y1="339.6719" y2="339.6719"/><!--MD5=[90bdf01846fe84de1706f3840c98d165]
+link BaseInspireEUModel to Identifier--><!--MD5=[54083acf9fdda546ddb9cba158af6c87]
+link BaseInspireEUModel to DataLifeCycleInfo--><!--MD5=[d5262eb5069c1e881b995f52f9df7468]
+link DataLifeCycleInfo to AbstractGeographicalName--><!--MD5=[71a19f62ccaf03b2e97cf31cf5cfc9b2]
+@startuml abstract
+
+title
+<b>Abstract</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+abstract BaseInspireEUModel {
+    (Default: Empty)
+}
+
+abstract Identifier{
+    - local_id
+    version_id
+    # namespace: Namespace
+}
+
+abstract DataLifeCycleInfo{
+    - begin_lifespan_version
+    end_lifespan_version
+
+}
+
+
+abstract AbstractGeographicalName{
+    language
+    # nativeness: CodeListValue.code_list=NativenessValue
+    # name_status: CodeListValue.code_list=NameStatusValue
+    source_of_name
+    pronunciation
+    spelling
+    # grammatical_gender: CodeListValue.code_list=GrammaticalGenderValue
+    # grammatical_number: CodeListValue.code_list=GrammaticalNumberValue
+}
+
+'AbstractGeographicalName }- - CodeListValue : nativeness
+'AbstractGeographicalName }- - CodeListValue : name_status
+'AbstractGeographicalName }- - CodeListValue : grammatical_gender
+'AbstractGeographicalName }- - CodeListValue : grammatical_number
+@enduml
+
+@startuml abstract
+
+title
+<b>Abstract</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+abstract BaseInspireEUModel {
+    (Default: Empty)
+}
+
+abstract Identifier{
+    - local_id
+    version_id
+    # namespace: Namespace
+}
+
+abstract DataLifeCycleInfo{
+    - begin_lifespan_version
+    end_lifespan_version
+
+}
+
+
+abstract AbstractGeographicalName{
+    language
+    # nativeness: CodeListValue.code_list=NativenessValue
+    # name_status: CodeListValue.code_list=NameStatusValue
+    source_of_name
+    pronunciation
+    spelling
+    # grammatical_gender: CodeListValue.code_list=GrammaticalGenderValue
+    # grammatical_number: CodeListValue.code_list=GrammaticalNumberValue
+}
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="811px" preserveAspectRatio="none" style="width:1595px;height:811px;" version="1.1" viewBox="0 0 1595 811" width="1595px" zoomAndPan="magnify"><defs><filter height="300%" id="fnsr4ea52ljth" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="48" x="1534.5" y="9.2822">Last Mod:</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="56" x="1526.5" y="20.9229">2021-02-20</text><text fill="#000000" font-family="sans-serif" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="105" x="738.75" y="39.9893">Inspire EU</text><!--MD5=[406da6cb21e99f1c5f638948e007f6a2]
+cluster Abstract--><rect fill="#EEEEEE" filter="url(#fnsr4ea52ljth)" height="448.5" style="stroke:#000000;stroke-width:1.5;" width="655" x="669" y="89.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="963" y="104.7295">Abstract</text><!--MD5=[2c2e2644034c00788261e03c85b06837]
+cluster Core--><rect fill="#CCCCCC" filter="url(#fnsr4ea52ljth)" height="748" style="stroke:#000000;stroke-width:1.5;" width="643" x="7" y="51.2344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="309.5" y="66.2295">Core</text><!--MD5=[f695a245c2d04d6aaae033ad46e60387]
+class BaseInspireEUModel--><rect codeLine="12" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="60.8047" id="BaseInspireEUModel" style="stroke:#A80036;stroke-width:1.5;" width="158" x="677" y="129.2344"/><ellipse cx="692" cy="145.2344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M692.1094,140.5781 L690.9531,145.6563 L693.2813,145.6563 L692.1094,140.5781 Z M690.625,138.3438 L693.6094,138.3438 L696.9688,150.7344 L694.5156,150.7344 L693.75,147.6719 L690.4688,147.6719 L689.7188,150.7344 L687.2813,150.7344 L690.625,138.3438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="126" x="706" y="149.3887">BaseInspireEUModel</text><line style="stroke:#A80036;stroke-width:1.5;" x1="678" x2="834" y1="161.2344" y2="161.2344"/><line style="stroke:#A80036;stroke-width:1.5;" x1="678" x2="834" y1="169.2344" y2="169.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="683" y="183.4448">(Default: Empty)</text><!--MD5=[75430099834887034d36f3efdb02bb45]
+class Identifier--><rect codeLine="16" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="86.4141" id="Identifier" style="stroke:#A80036;stroke-width:1.5;" width="167" x="869.5" y="116.7344"/><ellipse cx="920.75" cy="132.7344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M920.8594,128.0781 L919.7031,133.1563 L922.0313,133.1563 L920.8594,128.0781 Z M919.375,125.8438 L922.3594,125.8438 L925.7188,138.2344 L923.2656,138.2344 L922.5,135.1719 L919.2188,135.1719 L918.4688,138.2344 L916.0313,138.2344 L919.375,125.8438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="941.25" y="136.8887">Identifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="870.5" x2="1035.5" y1="148.7344" y2="148.7344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="877.5" y="156.7344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="889.5" y="162.9448">local_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="889.5" y="175.7495">version_id</text><polygon fill="none" points="880.5,180.3438,884.5,184.3438,880.5,188.3438,876.5,184.3438" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="889.5" y="188.5542">namespace: Namespace</text><line style="stroke:#A80036;stroke-width:1.5;" x1="870.5" x2="1035.5" y1="195.1484" y2="195.1484"/><!--MD5=[7aa4bff17b747d5e50ff4de1b3c3f4aa]
+class DataLifeCycleInfo--><rect codeLine="22" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="73.6094" id="DataLifeCycleInfo" style="stroke:#A80036;stroke-width:1.5;" width="156" x="677" y="418.2344"/><ellipse cx="698.75" cy="434.2344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M698.8594,429.5781 L697.7031,434.6563 L700.0313,434.6563 L698.8594,429.5781 Z M697.375,427.3438 L700.3594,427.3438 L703.7188,439.7344 L701.2656,439.7344 L700.5,436.6719 L697.2188,436.6719 L696.4688,439.7344 L694.0313,439.7344 L697.375,427.3438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="109" x="714.25" y="438.3887">DataLifeCycleInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="678" x2="832" y1="450.2344" y2="450.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="685" y="458.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="697" y="464.4448">begin_lifespan_version</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="697" y="477.2495">end_lifespan_version</text><line style="stroke:#A80036;stroke-width:1.5;" x1="678" x2="832" y1="483.8438" y2="483.8438"/><!--MD5=[d88265804c91b953ca42d31881bc3ef9]
+class AbstractGeographicalName--><rect codeLine="29" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="150.4375" id="AbstractGeographicalName" style="stroke:#A80036;stroke-width:1.5;" width="447" x="868.5" y="380.2344"/><ellipse cx="1002.25" cy="396.2344" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1002.3594,391.5781 L1001.2031,396.6563 L1003.5313,396.6563 L1002.3594,391.5781 Z M1000.875,389.3438 L1003.8594,389.3438 L1007.2188,401.7344 L1004.7656,401.7344 L1004,398.6719 L1000.7188,398.6719 L999.9688,401.7344 L997.5313,401.7344 L1000.875,389.3438 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="171" x="1022.75" y="400.3887">AbstractGeographicalName</text><line style="stroke:#A80036;stroke-width:1.5;" x1="869.5" x2="1314.5" y1="412.2344" y2="412.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="888.5" y="426.4448">language</text><polygon fill="none" points="879.5,431.0391,883.5,435.0391,879.5,439.0391,875.5,435.0391" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="307" x="888.5" y="439.2495">nativeness: CodeListValue.code_list=NativenessValue</text><polygon fill="none" points="879.5,443.8438,883.5,447.8438,879.5,451.8438,875.5,447.8438" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="326" x="888.5" y="452.0542">name_status: CodeListValue.code_list=NameStatusValue</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="888.5" y="464.8589">source_of_name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="888.5" y="477.6636">pronunciation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="888.5" y="490.4683">spelling</text><polygon fill="none" points="879.5,495.0625,883.5,499.0625,879.5,503.0625,875.5,499.0625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="414" x="888.5" y="503.2729">grammatical_gender: CodeListValue.code_list=GrammaticalGenderValue</text><polygon fill="none" points="879.5,507.8672,883.5,511.8672,879.5,515.8672,875.5,511.8672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="421" x="888.5" y="516.0776">grammatical_number: CodeListValue.code_list=GrammaticalNumberValue</text><line style="stroke:#A80036;stroke-width:1.5;" x1="869.5" x2="1314.5" y1="522.6719" y2="522.6719"/><!--MD5=[e3d83ec5fd90ea9f3f2bfe265cb53458]
+class Status--><rect codeLine="12" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="124.8281" id="Status" style="stroke:#A80036;stroke-width:1.5;" width="78" x="564" y="97.2344"/><ellipse cx="581.25" cy="113.2344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M585.3594,119.2344 L577.6406,119.2344 L577.6406,106.8438 L585.3594,106.8438 L585.3594,109 L580.0938,109 L580.0938,111.6719 L584.8594,111.6719 L584.8594,113.8281 L580.0938,113.8281 L580.0938,117.0781 L585.3594,117.0781 L585.3594,119.2344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="41" x="595.75" y="117.3887">Status</text><line style="stroke:#A80036;stroke-width:1.5;" x1="565" x2="641" y1="129.2344" y2="129.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="572" y="137.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="584" y="143.4448">code</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="572" y="150.0391"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="584" y="156.2495">slug</text><ellipse cx="575" cy="165.8438" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="584" y="169.0542">label</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="584" y="181.8589">definition</text><ellipse cx="575" cy="191.4531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19" x="584" y="194.6636">link</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="584" y="207.4683">is_valid</text><line style="stroke:#A80036;stroke-width:1.5;" x1="565" x2="641" y1="214.0625" y2="214.0625"/><!--MD5=[7870f61a2b09887c08d38df1315a7195]
+class Namespace--><rect codeLine="21" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="73.6094" id="Namespace" style="stroke:#A80036;stroke-width:1.5;" width="106" x="15" y="122.7344"/><ellipse cx="30" cy="138.7344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M34.1094,144.7344 L26.3906,144.7344 L26.3906,132.3438 L34.1094,132.3438 L34.1094,134.5 L28.8438,134.5 L28.8438,137.1719 L33.6094,137.1719 L33.6094,139.3281 L28.8438,139.3281 L28.8438,142.5781 L34.1094,142.5781 L34.1094,144.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="44" y="142.8887">Namespace</text><line style="stroke:#A80036;stroke-width:1.5;" x1="16" x2="120" y1="154.7344" y2="154.7344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="23" y="162.7344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="35" y="168.9448">code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="32" x="35" y="181.7495">name</text><line style="stroke:#A80036;stroke-width:1.5;" x1="16" x2="120" y1="188.3438" y2="188.3438"/><!--MD5=[bbad56bc7779fe6d833d77eae0c25c05]
+class Theme--><rect codeLine="26" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="137.6328" id="Theme" style="stroke:#A80036;stroke-width:1.5;" width="89" x="319.5" y="386.2344"/><ellipse cx="341.25" cy="402.2344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M345.3594,408.2344 L337.6406,408.2344 L337.6406,395.8438 L345.3594,395.8438 L345.3594,398 L340.0938,398 L340.0938,400.6719 L344.8594,400.6719 L344.8594,402.8281 L340.0938,402.8281 L340.0938,406.0781 L345.3594,406.0781 L345.3594,408.2344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="356.75" y="406.3887">Theme</text><line style="stroke:#A80036;stroke-width:1.5;" x1="320.5" x2="407.5" y1="418.2344" y2="418.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327.5" y="426.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="339.5" y="432.4448">code</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327.5" y="439.0391"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="339.5" y="445.2495">slug</text><ellipse cx="330.5" cy="454.8438" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19" x="339.5" y="458.0542">link</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="339.5" y="470.8589">version</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="339.5" y="483.6636">label</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="339.5" y="496.4683">definition</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="339.5" y="509.2729">description</text><line style="stroke:#A80036;stroke-width:1.5;" x1="320.5" x2="407.5" y1="515.8672" y2="515.8672"/><!--MD5=[30911c842d7aab8ef88c02f8dbac4e0b]
+class ApplicationSchema--><rect codeLine="38" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="137.6328" id="ApplicationSchema" style="stroke:#A80036;stroke-width:1.5;" width="151" x="377.5" y="90.7344"/><ellipse cx="392.5" cy="106.7344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M396.6094,112.7344 L388.8906,112.7344 L388.8906,100.3438 L396.6094,100.3438 L396.6094,102.5 L391.3438,102.5 L391.3438,105.1719 L396.1094,105.1719 L396.1094,107.3281 L391.3438,107.3281 L391.3438,110.5781 L396.6094,110.5781 L396.6094,112.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="406.5" y="110.8887">ApplicationSchema</text><line style="stroke:#A80036;stroke-width:1.5;" x1="378.5" x2="527.5" y1="122.7344" y2="122.7344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="385.5" y="130.7344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="397.5" y="136.9448">code</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="385.5" y="143.5391"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="397.5" y="149.7495">slug</text><ellipse cx="388.5" cy="159.3438" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19" x="397.5" y="162.5542">link</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="397.5" y="175.3589">version</text><ellipse cx="388.5" cy="184.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="397.5" y="188.1636">label</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="397.5" y="200.9683">definition</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="397.5" y="213.7729">description</text><line style="stroke:#A80036;stroke-width:1.5;" x1="378.5" x2="527.5" y1="220.3672" y2="220.3672"/><!--MD5=[1316f8f1fa7a22bd485ca39f6e7ea5db]
+class CodeList--><rect codeLine="50" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="124.8281" id="CodeList" style="stroke:#A80036;stroke-width:1.5;" width="89" x="443.5" y="392.7344"/><ellipse cx="460.3" cy="408.7344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M464.4094,414.7344 L456.6906,414.7344 L456.6906,402.3438 L464.4094,402.3438 L464.4094,404.5 L459.1438,404.5 L459.1438,407.1719 L463.9094,407.1719 L463.9094,409.3281 L459.1438,409.3281 L459.1438,412.5781 L464.4094,412.5781 L464.4094,414.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="474.7" y="412.8887">CodeList</text><line style="stroke:#A80036;stroke-width:1.5;" x1="444.5" x2="531.5" y1="424.7344" y2="424.7344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="451.5" y="432.7344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="463.5" y="438.9448">code</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="451.5" y="445.5391"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="463.5" y="451.7495">slug</text><ellipse cx="454.5" cy="461.3438" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19" x="463.5" y="464.5542">link</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="463.5" y="477.3589">label</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="463.5" y="490.1636">definition</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="463.5" y="502.9683">description</text><line style="stroke:#A80036;stroke-width:1.5;" x1="444.5" x2="531.5" y1="509.5625" y2="509.5625"/><!--MD5=[96abad382afb0e4e08b50713d5c4cea5]
+class CodeListValue--><rect codeLine="64" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="137.6328" id="CodeListValue" style="stroke:#A80036;stroke-width:1.5;" width="171" x="436.5" y="653.2344"/><ellipse cx="474.45" cy="669.2344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M478.5594,675.2344 L470.8406,675.2344 L470.8406,662.8438 L478.5594,662.8438 L478.5594,665 L473.2938,665 L473.2938,667.6719 L478.0594,667.6719 L478.0594,669.8281 L473.2938,669.8281 L473.2938,673.0781 L478.5594,673.0781 L478.5594,675.2344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="493.55" y="673.3887">CodeListValue</text><line style="stroke:#A80036;stroke-width:1.5;" x1="437.5" x2="606.5" y1="685.2344" y2="685.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="444.5" y="693.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="456.5" y="699.4448">code</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="444.5" y="706.0391"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="456.5" y="712.2495">slug</text><ellipse cx="447.5" cy="721.8438" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="19" x="456.5" y="725.0542">link</text><ellipse cx="447.5" cy="734.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="456.5" y="737.8589">label</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="456.5" y="750.6636">definition</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="456.5" y="763.4683">description</text><line style="stroke:#A80036;stroke-width:1.0;" x1="437.5" x2="606.5" y1="770.0625" y2="770.0625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="442.5" y="784.2729">search(slug, code_list_slug)</text><!--MD5=[e725e2ecb2f5170ea8643eb9e1dbfe4f]
+class MEASURE_TYPE_CHOICES--><rect codeLine="77" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="163.2422" id="MEASURE_TYPE_CHOICES" style="stroke:#A80036;stroke-width:1.5;" width="186" x="156" y="78.2344"/><ellipse cx="171" cy="94.2344" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M175.1094,100.2344 L167.3906,100.2344 L167.3906,87.8438 L175.1094,87.8438 L175.1094,90 L169.8438,90 L169.8438,92.6719 L174.6094,92.6719 L174.6094,94.8281 L169.8438,94.8281 L169.8438,98.0781 L175.1094,98.0781 L175.1094,100.2344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="185" y="98.3887">MEASURE_TYPE_CHOICES</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157" x2="341" y1="110.2344" y2="110.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="162" y="124.4448">MEASURE_TYPE_UNKNOWN</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="162" y="137.2495">MEASURE_TYPE_AREA</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="162" y="150.0542">MEASURE_TYPE_LENGTH</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="162" y="162.8589">MEASURE_TYPE_ANGLE</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="162" y="175.6636">MEASURE_TYPE_TIME</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="162" y="188.4683">MEASURE_TYPE_VELOCITY</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="162" y="201.2729">MEASURE_TYPE_VOLUME</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="162" y="214.0776">MEASURE_TYPE_SCALE</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="162" y="226.8823">MEASURE_TYPE_WEIGHT</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157" x2="341" y1="233.4766" y2="233.4766"/><!--MD5=[728e6eae1f75e58c405ce3dc82dc21dd]
+class UnitOfMeasure--><rect codeLine="89" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="137.6328" id="UnitOfMeasure" style="stroke:#A80036;stroke-width:1.5;" width="160" x="124" y="386.2344"/><ellipse cx="155.2" cy="402.2344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M159.3094,408.2344 L151.5906,408.2344 L151.5906,395.8438 L159.3094,395.8438 L159.3094,398 L154.0438,398 L154.0438,400.6719 L158.8094,400.6719 L158.8094,402.8281 L154.0438,402.8281 L154.0438,406.0781 L159.3094,406.0781 L159.3094,408.2344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="172.8" y="406.3887">UnitOfMeasure</text><line style="stroke:#A80036;stroke-width:1.5;" x1="125" x2="283" y1="418.2344" y2="418.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="32" x="144" y="432.4448">name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="132" y="439.0391"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="144" y="445.2495">slug</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="132" y="451.8438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="144" y="458.0542">symbol</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="144" y="470.8589">name_standard_unit</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="144" y="483.6636">scale_to_standard_unit</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="144" y="496.4683">offset_to_standard_unit</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="144" y="509.2729">formula</text><line style="stroke:#A80036;stroke-width:1.5;" x1="125" x2="283" y1="515.8672" y2="515.8672"/><!--MD5=[77354ef97ed3c0d47f31e2cb6e088881]
+class SimbologyHelp--><rect codeLine="2" fill="#FEFECE" filter="url(#fnsr4ea52ljth)" height="99.2188" id="SimbologyHelp" style="stroke:#A80036;stroke-width:1.5;" width="249" x="1332.5" y="110.2344"/><ellipse cx="1407.25" cy="126.2344" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1411.3594,132.2344 L1403.6406,132.2344 L1403.6406,119.8438 L1411.3594,119.8438 L1411.3594,122 L1406.0938,122 L1406.0938,124.6719 L1410.8594,124.6719 L1410.8594,126.8281 L1406.0938,126.8281 L1406.0938,130.0781 L1411.3594,130.0781 L1411.3594,132.2344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="1427.75" y="130.3887">SimbologyHelp</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1333.5" x2="1580.5" y1="142.2344" y2="142.2344"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1340.5" y="150.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="1352.5" y="156.4448">Not null field</text><ellipse cx="1343.5" cy="166.0391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="1352.5" y="169.2495">Mandatory field</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="1352.5" y="182.0542">Normal field</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1333.5" x2="1580.5" y1="188.6484" y2="188.6484"/><polygon fill="#FFFF44" points="1343.5,194.6484,1347.5,198.6484,1343.5,202.6484,1339.5,198.6484" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="223" x="1352.5" y="202.8589">field (Foreign Key with limit_choices_to)</text><!--MD5=[7ed5242d9f3c32c46477c9b94d9609a8]
+link Status to Theme--><path codeLine="36" d="M563.8618,217.2677 C558.0054,225.4107 551.9378,233.6032 546,241.2344 C495.8807,305.6471 478.6699,317.89 426,380.2344 C422.0138,384.9528 417.9015,389.8533 413.7805,394.7876 " fill="none" id="Status-to-Theme" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="413.6872" x2="408.5648" y1="394.8996" y2="406.167"/><line style="stroke:#A80036;stroke-width:1.0;" x1="413.6872" x2="408.5648" y1="394.8996" y2="395.9222"/><line style="stroke:#A80036;stroke-width:1.0;" x1="413.6872" x2="408.5648" y1="394.8996" y2="401.0446"/><!--MD5=[f85a7926ff0048910ffabad581deed1a]
+link ApplicationSchema to Theme--><path codeLine="47" d="M429.7549,236.9133 C416.6201,280.5237 400.2564,334.8552 387.139,378.4077 " fill="none" id="ApplicationSchema-Theme" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="387.1199" x2="392.4729" y1="378.4712" y2="386.1313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="387.1199" x2="377.1527" y1="378.4712" y2="386.1313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="387.1199" x2="384.8128" y1="378.4712" y2="386.1313"/><line style="stroke:#A80036;stroke-width:1.0;" x1="429.8264" x2="424.4734" y1="236.6761" y2="229.016"/><line style="stroke:#A80036;stroke-width:1.0;" x1="429.8264" x2="439.7936" y1="236.6761" y2="229.016"/><line style="stroke:#A80036;stroke-width:1.0;" x1="429.8264" x2="432.1335" y1="236.6761" y2="229.016"/><!--MD5=[f3b85bae2b618173e6cff5f692add8fb]
+reverse link ApplicationSchema to Status--><path codeLine="48" d="M536.8294,159.7344 C545.8057,159.7344 554.782,159.7344 563.7582,159.7344 " fill="none" id="ApplicationSchema-backto-Status" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="536.5859" x2="528.5859" y1="159.7344" y2="167.7344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="536.5859" x2="528.5859" y1="159.7344" y2="151.7344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="536.5859" x2="528.5859" y1="159.7344" y2="159.7344"/><!--MD5=[c1b85c2bcc52a033eb34646c64e7d59b]
+link Theme to CodeList--><path codeLine="59" d="M416.7079,455.2344 C422.8057,455.2344 428.9035,455.2344 435.0013,455.2344 " fill="none" id="Theme-CodeList" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="435.3164" x2="443.3164" y1="455.2344" y2="447.2344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="435.3164" x2="443.3164" y1="455.2344" y2="463.2344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="435.3164" x2="443.3164" y1="455.2344" y2="455.2344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="416.5625" x2="408.5625" y1="455.2344" y2="463.2344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="416.5625" x2="408.5625" y1="455.2344" y2="447.2344"/><line style="stroke:#A80036;stroke-width:1.0;" x1="416.5625" x2="408.5625" y1="455.2344" y2="455.2344"/><!--MD5=[fdf20c06cbc58b0d1725e447067166ac]
+link ApplicationSchema to CodeList--><path codeLine="60" d="M461.2059,229.016 C466.7449,275.781 474.0339,337.3209 479.611,384.4069 " fill="none" id="ApplicationSchema-to-CodeList" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="479.62" x2="488.5055" y1="384.4835" y2="392.428"/><line style="stroke:#A80036;stroke-width:1.0;" x1="479.62" x2="472.6165" y1="384.4835" y2="392.428"/><line style="stroke:#A80036;stroke-width:1.0;" x1="479.62" x2="480.561" y1="384.4835" y2="392.428"/><!--MD5=[07b929ec5d80eddfc941dfbf88018da2]
+link Status to CodeList--><path codeLine="61" d="M578.6115,222.4023 C560.0485,270.1011 534.5013,335.7462 515.2643,385.177 " fill="none" id="Status-to-CodeList" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="515.255" x2="519.8087" y1="385.2015" y2="392.6568"/><line style="stroke:#A80036;stroke-width:1.0;" x1="515.255" x2="504.8981" y1="385.2015" y2="392.6568"/><line style="stroke:#A80036;stroke-width:1.0;" x1="515.255" x2="512.3534" y1="385.2015" y2="392.6568"/><!--MD5=[bb3a8ad86192cac26a9a6d0444dfbb2c]
+link CodeList to CodeList--><path codeLine="62" d="M532.549,435.9355 C551.4219,434.4811 567.5,440.9141 567.5,455.2344 C567.5,467.429 555.8408,473.9041 540.7252,474.6596 " fill="none" id="CodeList-to-CodeList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="540.548" x2="532.549" y1="474.6568" y2="482.5323"/><line style="stroke:#A80036;stroke-width:1.0;" x1="540.548" x2="532.549" y1="474.6568" y2="466.5342"/><line style="stroke:#A80036;stroke-width:1.0;" x1="540.548" x2="532.549" y1="474.6568" y2="474.5333"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="573.5" y="459.8013">parent</text><!--MD5=[49eb15a584976a06f6d24d4f94cceb35]
+link CodeList to CodeListValue--><path codeLine="74" d="M495.9715,517.834 C500.8109,555.838 507.0255,604.6409 512.1685,645.0286 " fill="none" id="CodeList-to-CodeListValue" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="512.1714" x2="521.118" y1="645.0523" y2="652.9882"/><line style="stroke:#A80036;stroke-width:1.0;" x1="512.1714" x2="505.2462" y1="645.0523" y2="652.9882"/><line style="stroke:#A80036;stroke-width:1.0;" x1="512.1714" x2="513.1821" y1="645.0523" y2="652.9882"/><!--MD5=[9fde796986122922cb2a146f47cd1a76]
+link Status to CodeListValue--><path codeLine="75" d="M626.0905,222.4069 C634.0476,249.229 641,281.1336 641,310.7344 C641,310.7344 641,310.7344 641,591.7344 C641,616.3894 629.2594,638.4312 613.1538,657.0689 " fill="none" id="Status-to-CodeListValue" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="612.9125" x2="607.5352" y1="657.3346" y2="668.6351"/><line style="stroke:#A80036;stroke-width:1.0;" x1="612.9125" x2="607.5352" y1="657.3346" y2="657.8806"/><line style="stroke:#A80036;stroke-width:1.0;" x1="612.9125" x2="607.5352" y1="657.3346" y2="663.2579"/><!--MD5=[7f184389fc65552cdb46c25a04d65369]
+link MEASURE_TYPE_CHOICES to UnitOfMeasure--><path codeLine="98" d="M236.5844,241.2633 C229.6644,286.7048 221.1398,342.6832 214.5456,385.9849 " fill="none" id="MEASURE_TYPE_CHOICES-UnitOfMeasure" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="229" y="315.3013">measure_type</text><!--MD5=[90bdf01846fe84de1706f3840c98d165]
+link BaseInspireEUModel to Identifier--><!--MD5=[54083acf9fdda546ddb9cba158af6c87]
+link BaseInspireEUModel to DataLifeCycleInfo--><!--MD5=[d5262eb5069c1e881b995f52f9df7468]
+link DataLifeCycleInfo to AbstractGeographicalName--><!--MD5=[1c7cd0ac35e400b7b431f7ed14d457b5]
+@startuml inspire_eu
+
+package Abstract <<Rectangle>> #eeeeee {
+    !include partial/abstract.puml
+}
+
+package Core <<Rectangle>> #cccccc {
+  !include partial/core.puml
+}
+
+!include help.puml
+
+title
+<b>Inspire EU</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+@enduml
+
+@startuml inspire_eu
+
+package Abstract <<Rectangle>> #eeeeee {
+
+title
+<b>Abstract</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+abstract BaseInspireEUModel {
+    (Default: Empty)
+}
+
+abstract Identifier{
+    - local_id
+    version_id
+    # namespace: Namespace
+}
+
+abstract DataLifeCycleInfo{
+    - begin_lifespan_version
+    end_lifespan_version
+
+}
+
+
+abstract AbstractGeographicalName{
+    language
+    # nativeness: CodeListValue.code_list=NativenessValue
+    # name_status: CodeListValue.code_list=NameStatusValue
+    source_of_name
+    pronunciation
+    spelling
+    # grammatical_gender: CodeListValue.code_list=GrammaticalGenderValue
+    # grammatical_number: CodeListValue.code_list=GrammaticalNumberValue
+}
+
+}
+
+package Core <<Rectangle>> #cccccc {
+
+title
+<b>Core</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+entity Status{
+    - code
+    - slug
+    + label
+    definition
+    + link
+    is_valid
+}
+
+entity Namespace{
+    - code
+    name
+}
+
+entity Theme {
+    - code
+    - slug
+    + link
+    version
+    label
+    definition
+    description
+
+}
+Status -down-{ Theme
+
+entity ApplicationSchema {
+    - code
+    - slug
+    + link
+    version
+    + label
+    definition
+    description
+}
+Theme }-left-{ ApplicationSchema
+Status -left-{ ApplicationSchema
+
+entity CodeList {
+    - code
+    - slug
+    + link
+    label
+    definition
+    description
+
+}
+CodeList }-left-{ Theme
+CodeList }-left- ApplicationSchema
+Status -down-{ CodeList
+CodeList .down.{ CodeList : parent
+
+entity CodeListValue{
+    - code
+    - slug
+    + link
+    + label
+    definition
+    description
+    - -
+    search(slug, code_list_slug)
+}
+CodeList -down-{ CodeListValue
+Status -down-{ CodeListValue
+
+enum MEASURE_TYPE_CHOICES {
+    MEASURE_TYPE_UNKNOWN
+    MEASURE_TYPE_AREA
+    MEASURE_TYPE_LENGTH
+    MEASURE_TYPE_ANGLE
+    MEASURE_TYPE_TIME
+    MEASURE_TYPE_VELOCITY
+    MEASURE_TYPE_VOLUME
+    MEASURE_TYPE_SCALE
+    MEASURE_TYPE_WEIGHT
+}
+
+entity UnitOfMeasure {
+    name
+    - slug
+    - symbol
+    name_standard_unit
+    scale_to_standard_unit
+    offset_to_standard_unit
+    formula
+}
+UnitOfMeasure -up- MEASURE_TYPE_CHOICES: measure_type
+}
+
+
+entity SimbologyHelp {
+    - Not null field
+    + Mandatory field
+    Normal field
+    # field (Foreign Key with limit_choices_to)
+}
+
+
+title
+<b>Inspire EU</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

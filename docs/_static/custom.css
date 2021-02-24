@@ -1,0 +1,15 @@
+.wy-nav-content {
+  max-width: 1000px;
+}
+
+table.developer {
+  overflow: hidden;
+}
+table.developer tr:first-child {
+  vertical-align: top !important;
+  text-align: center;
+}
+
+table.developer td {
+  vertical-align: top !important;
+}

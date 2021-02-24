@@ -1,0 +1,100 @@
+@startuml core
+
+title
+<b>Core</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+entity Status{
+    - code
+    - slug
+    + label
+    definition
+    + link
+    is_valid
+}
+
+entity Namespace{
+    - code
+    name
+}
+
+entity Theme {
+    - code
+    - slug
+    + link
+    version
+    label
+    definition
+    description
+
+}
+Status -down-{ Theme
+
+entity ApplicationSchema {
+    - code
+    - slug
+    + link
+    version
+    + label
+    definition
+    description
+}
+Theme }-left-{ ApplicationSchema
+Status -left-{ ApplicationSchema
+
+entity CodeList {
+    - code
+    - slug
+    + link
+    label
+    definition
+    description
+
+}
+CodeList }-left-{ Theme
+CodeList }-left- ApplicationSchema
+Status -down-{ CodeList
+CodeList .down.{ CodeList : parent
+
+entity CodeListValue{
+    - code
+    - slug
+    + link
+    + label
+    definition
+    description
+    --
+    search(slug, code_list_slug)
+}
+CodeList -down-{ CodeListValue
+Status -down-{ CodeListValue
+
+enum MEASURE_TYPE_CHOICES {
+    MEASURE_TYPE_UNKNOWN
+    MEASURE_TYPE_AREA
+    MEASURE_TYPE_LENGTH
+    MEASURE_TYPE_ANGLE
+    MEASURE_TYPE_TIME
+    MEASURE_TYPE_VELOCITY
+    MEASURE_TYPE_VOLUME
+    MEASURE_TYPE_SCALE
+    MEASURE_TYPE_WEIGHT
+}
+
+entity UnitOfMeasure {
+    name
+    - slug
+    - symbol
+    name_standard_unit
+    scale_to_standard_unit
+    offset_to_standard_unit
+    formula
+}
+UnitOfMeasure -up- MEASURE_TYPE_CHOICES: measure_type
+@enduml

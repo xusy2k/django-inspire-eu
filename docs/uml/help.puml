@@ -1,0 +1,10 @@
+@startuml simbology_help
+
+entity SimbologyHelp {
+    - Not null field
+    + Mandatory field
+    Normal field
+    # field (Foreign Key with limit_choices_to)
+}
+
+@enduml

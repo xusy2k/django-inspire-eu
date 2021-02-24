@@ -1,0 +1,23 @@
+@startuml inspire_eu
+
+package Abstract <<Rectangle>> #eeeeee {
+    !include partial/abstract.puml
+}
+
+package Core <<Rectangle>> #cccccc {
+  !include partial/core.puml
+}
+
+!include help.puml
+
+title
+<b>Inspire EU</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+@enduml

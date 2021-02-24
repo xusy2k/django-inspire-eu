@@ -1,0 +1,45 @@
+@startuml abstract
+
+title
+<b>Abstract</b>
+end title
+
+right header
+ Last Mod:
+2021-02-20
+endheader
+
+
+abstract BaseInspireEUModel {
+    (Default: Empty)
+}
+
+abstract Identifier{
+    - local_id
+    version_id
+    # namespace: Namespace
+}
+
+abstract DataLifeCycleInfo{
+    - begin_lifespan_version
+    end_lifespan_version
+
+}
+
+
+abstract AbstractGeographicalName{
+    language
+    # nativeness: CodeListValue.code_list=NativenessValue
+    # name_status: CodeListValue.code_list=NameStatusValue
+    source_of_name
+    pronunciation
+    spelling
+    # grammatical_gender: CodeListValue.code_list=GrammaticalGenderValue
+    # grammatical_number: CodeListValue.code_list=GrammaticalNumberValue
+}
+
+'AbstractGeographicalName }-- CodeListValue : nativeness
+'AbstractGeographicalName }-- CodeListValue : name_status
+'AbstractGeographicalName }-- CodeListValue : grammatical_gender
+'AbstractGeographicalName }-- CodeListValue : grammatical_number
+@enduml
