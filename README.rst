@@ -5,6 +5,9 @@ Django Inspire EU
 .. image:: https://img.shields.io/badge/django-2.X-092E20.svg
     :target: https://www.djangoproject.com
     :alt: Django 2.X
+.. image:: https://readthedocs.org/projects/django-inspire-eu/badge/?version=latest
+    :target: https://django-inspire-eu.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 .. image:: https://badge.fury.io/py/django-inspire-eu.svg
     :target: https://badge.fury.io/py/django-inspire-eu
 .. image:: https://travis-ci.com/xusy2k/django-inspire-eu.svg?branch=master

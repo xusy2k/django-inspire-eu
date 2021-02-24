@@ -2,6 +2,7 @@ Django Inspire EU
 =================
 
 [![Django 2.X](https://img.shields.io/badge/django-2.X-092E20.svg)](https://www.djangoproject.com)
+[![Documentation Status](https://readthedocs.org/projects/django-inspire-eu/badge/?version=latest)](https://django-inspire-eu.readthedocs.io/en/latest/?badge=latest)
 [![image](https://badge.fury.io/py/django-inspire-eu.svg)](https://badge.fury.io/py/django-inspire-eu)
 [![See Build Status on Travis CI](https://travis-ci.com/xusy2k/django-inspire-eu.svg?branch=master)](https://travis-ci.com/xusy2k/django-inspire-eu)
 [![image](https://codecov.io/gh/xusy2k/django-inspire-eu/branch/master/graph/badge.svg)](https://codecov.io/gh/xusy2k/django-inspire-eu)
