@@ -22,6 +22,17 @@ Quickstart
 
 1.  Install Django Inspire EU:
 
+    > At the command line:
+    >
+    >     $ easy_install django-inspire-eu
+    >
+    > Or, if you have virtualenvwrapper installed:
+    >
+    >     $ mkvirtualenv django-inspire-eu
+    >     $ pip install django-inspire-eu
+    >
+    > Development version:
+    >
     > ``` {.sourceCode .bash}
     > $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
     > ```
@@ -48,7 +59,7 @@ Quickstart
     > ]
     > ```
 
-4.  Customize settings &lt;settings&gt;
+4.  Customize [settings](settings):
 
     > -   settings:INSPIRE\_EU\_THEMES
     > -   settings:INSPIRE\_EU\_DEFAULT\_SRID

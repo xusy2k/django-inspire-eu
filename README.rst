@@ -33,18 +33,20 @@ Quickstart
 
 #. Install Django Inspire EU:
 
+    At the command line::
+
+        $ easy_install django-inspire-eu
+
+    Or, if you have virtualenvwrapper installed::
+
+        $ mkvirtualenv django-inspire-eu
+        $ pip install django-inspire-eu
+
+    Development version:
+
     .. code-block:: bash
 
         $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
-
-    .. At the command line::
-
-    ..     $ easy_install django-inspire-eu
-
-    .. Or, if you have virtualenvwrapper installed::
-
-    ..     $ mkvirtualenv django-inspire-eu
-    ..     $ pip install django-inspire-eu
 
 
 #. Add it to your `INSTALLED_APPS`:
