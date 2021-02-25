@@ -14,10 +14,10 @@ INSPIRE_EU_THEMES
 
 .. code-block:: python
 
-    INSPIRE_EU_THEMES = dict({
-            "cadastral_parcels": False,
-            "buildings": False,
-        })
+    INSPIRE_EU_THEMES = {
+        "cadastral_parcels": True,
+        "buildings": True,
+    }
 
 """
 import logging
@@ -36,12 +36,10 @@ except AttributeError:
 try:
     INSPIRE_EU_THEMES = settings.INSPIRE_EU_THEMES
 except AttributeError:
-    INSPIRE_EU_THEMES = dict(
-        {
-            "cadastral_parcels": False,
-            "buildings": False,
-        },
-    )
+    INSPIRE_EU_THEMES = {
+        "cadastral_parcels": True,
+        "buildings": True,
+    }
 
 
 from .core import (  # noqa

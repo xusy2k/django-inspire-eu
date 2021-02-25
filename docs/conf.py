@@ -57,12 +57,16 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.doctest',
     'sphinx.ext.todo',
+    'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
     'sphinx.ext.ifconfig',
     'sphinxcontrib.napoleon',
     'sphinxcontrib_django',
     ]
 
+
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 2
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

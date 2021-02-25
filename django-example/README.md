@@ -21,4 +21,8 @@ To run this example, follow these instructions:
 
 		python manage.py runserver
 
-5. Access from the browser at `http://127.0.0.1:8000`
+5. Create a user
+
+		python manage.py createsuperuser
+
+6. Access from the browser at `http://127.0.0.1:8000/admin/`

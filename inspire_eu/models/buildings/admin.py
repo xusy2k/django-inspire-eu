@@ -1,6 +1,6 @@
 import logging
 
-from django.contrib import admin
+from django.contrib.gis import admin
 
 from . import (
     Building,
@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 
 
 @admin.register(Building)
-class BuildingAdmin(admin.ModelAdmin):
+class BuildingAdmin(admin.OSMGeoAdmin):
     pass
 
 

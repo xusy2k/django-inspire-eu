@@ -69,6 +69,13 @@ Quickstart
             ...
         ]
 
+#. Customize :doc:`settings <settings>`
+
+    * :ref:`settings:``INSPIRE_EU_THEMES```
+    * :ref:`settings:``INSPIRE_EU_DEFAULT_SRID```
+    * :ref:`settings:``INSPIRE_EU_BASE_MODEL```
+    * :ref:`settings:``MIGRATION_MODULES```: **Very important** if you want avoid problems with migrations files
+
 
 #. Make and execute migrations:
 
@@ -89,6 +96,12 @@ This django command fetch values from https://inspire.ec.europa.eu. In particula
     .. code-block:: bash
 
         python manage.py load_initial_inspire [-l <language>]  # Default: en
+
+
+Working example
+---------------
+
+Follow steps at `django-example directory <https://github.com/xusy2k/django-inspire-eu/tree/master/django-example/>`_
 
 
 Running Tests

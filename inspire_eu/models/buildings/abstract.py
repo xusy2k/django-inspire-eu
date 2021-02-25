@@ -291,7 +291,7 @@ class AbstractOtherConstruction(AbstractConstruction):
 
     """
 
-    # ToDo: OtherConstructionNatureValue
+    # OtherConstructionNatureValue
     other_construction_nature = models.ForeignKey(
         CodeListValue,
         blank=True,
@@ -365,7 +365,7 @@ class AbstractOfficialArea(models.Model):
 
     """
 
-    # Todo: OfficialAreaReferenceValue
+    # OfficialAreaReferenceValue
     reference = models.ForeignKey(
         CodeListValue,
         on_delete=models.PROTECT,

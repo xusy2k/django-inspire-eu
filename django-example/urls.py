@@ -6,5 +6,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r"^admin/", admin.site.urls),
-    url(r"^", include("inspire_eu.urls", namespace="inspire_eu")),
+    # url(r"^inspire_eu/", include("inspire_eu.urls", namespace="inspire_eu")),
 ]

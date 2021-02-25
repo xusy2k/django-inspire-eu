@@ -36,12 +36,12 @@ If you want extend some fields in a particular model:
    | .. code-block:: python                                          | .. code-block:: python                                         |
    |    :caption: ``inspire_eu.settings.py``                         |      :caption: ``my_awesome_proect.settings.py``               |
    |                                                                 |                                                                |
-   |    INSPIRE_EU_THEMES = dict({                                   |       INSPIRE_EU_THEMES = dict({                               |
+   |    INSPIRE_EU_THEMES = {                                        |       INSPIRE_EU_THEMES = {                                    |
    |        # ...                                                    |           # ...                                                |
-   |        "cadastral_parcels": False,                              |           "cadastral_parcels": False,                          |
-   |        "buildings": False,                                      |           "buildings": True,                                   |
+   |        "cadastral_parcels": True,                               |           "cadastral_parcels": False,                          |
+   |        "buildings": True,                                       |           "buildings": True,                                   |
    |        # ...                                                    |           # ...                                                |
-   |    })                                                           |       })                                                       |
+   |    }                                                            |       }                                                        |
    |                                                                 |                                                                |
    +-----------------------------------------------------------------+----------------------------------------------------------------+
    | .. code-block:: python                                          | .. code-block:: python                                         |
@@ -75,7 +75,7 @@ If you want extend some fields in a particular model:
    |                                                                 |                                                                |
    |                                                                 | * ``CadastralZoning`` will add ``city`` field                  |
    |                                                                 | * ``AnotherExample`` will add ``city`` and ``country`` fields  |
-   |                                                                 | * Also will be availabe all ``Building`` models                |
+   |                                                                 | * Also will be available all ``Building`` models               |
    |                                                                 |                                                                |
    +-----------------------------------------------------------------+----------------------------------------------------------------+
 

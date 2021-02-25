@@ -1,6 +1,6 @@
 import logging
 
-from django.contrib import admin
+from django.contrib.gis import admin
 
 from . import CadastralParcel, CadastralZoning
 
@@ -8,10 +8,10 @@ log = logging.getLogger(__name__)
 
 
 @admin.register(CadastralZoning)
-class CadastralZoningAdmin(admin.ModelAdmin):
+class CadastralZoningAdmin(admin.OSMGeoAdmin):
     pass
 
 
 @admin.register(CadastralParcel)
-class CadastralParcelAdmin(admin.ModelAdmin):
+class CadastralParcelAdmin(admin.OSMGeoAdmin):
     pass
