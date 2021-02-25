@@ -48,14 +48,22 @@ Quickstart
     > ]
     > ```
 
-4.  Make and execute migrations:
+4.  Customize settings &lt;settings&gt;
+
+    > -   settings:INSPIRE\_EU\_THEMES
+    > -   settings:INSPIRE\_EU\_DEFAULT\_SRID
+    > -   settings:INSPIRE\_EU\_BASE\_MODEL
+    > -   settings:MIGRATION\_MODULES: **Very important** if you
+    >     want avoid problems with migrations files
+
+5.  Make and execute migrations:
 
     > ``` {.sourceCode .bash}
     > python manage.py makemigrations
     > python manage.py migrate
     > ```
 
-5.  Populate base models:
+6.  Populate base models:
 
 This django command fetch values from <https://inspire.ec.europa.eu>. In
 particular: Status:
@@ -70,6 +78,12 @@ For each Code List key, fetch all its Code List Values
 > ``` {.sourceCode .bash}
 > python manage.py load_initial_inspire [-l <language>]  # Default: en
 > ```
+
+Working example
+---------------
+
+Follow steps at [django-example
+directory](https://github.com/xusy2k/django-inspire-eu/tree/master/django-example/)
 
 Running Tests
 -------------
