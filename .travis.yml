@@ -27,19 +27,16 @@ env:
   - TOX_ENV=py36-django-22
   - TOX_ENV=py36-django-30
   - TOX_ENV=py36-django-31
-  - TOX_ENV=py36-django-32
   - TOX_ENV=py37-django-20
   - TOX_ENV=py37-django-21
   - TOX_ENV=py37-django-22
   - TOX_ENV=py37-django-30
   - TOX_ENV=py37-django-31
-  - TOX_ENV=py37-django-32
   - TOX_ENV=py38-django-20
   - TOX_ENV=py38-django-21
   - TOX_ENV=py38-django-22
   - TOX_ENV=py38-django-30
   - TOX_ENV=py38-django-31
-  - TOX_ENV=py38-django-32
 
 matrix:
   fast_finish: true

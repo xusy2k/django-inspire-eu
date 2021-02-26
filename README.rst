@@ -2,9 +2,9 @@
 Django Inspire EU
 ==================
 
-.. image:: https://img.shields.io/badge/django-2.X-092E20.svg
+.. image:: https://img.shields.io/badge/django-2.0,%202.1,%202.2,%203.0,%203.1-092E20.svg
     :target: https://www.djangoproject.com
-    :alt: Django 2.X
+    :alt: Django 2.0, 2.1, 2.2, 3.0, 3.1
 .. image:: https://readthedocs.org/projects/django-inspire-eu/badge/?version=latest
     :target: https://django-inspire-eu.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
