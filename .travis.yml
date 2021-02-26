@@ -5,13 +5,16 @@ language: python
 dist: bionic
 
 python:
+  - "3.6"
+  - "3.7"
   - "3.8"
 
 before_install:
   - sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
   - sudo add-apt-repository -y ppa:deadsnakes/ppa
   - sudo apt-get -q update
-  - sudo apt-get -y install binutils libproj19 libproj-dev proj-bin proj-data libgeos-dev libgeos-c1v5 libgeos-3.8.0 gdal-bin gdal-data libgdal-dev libgdal26 libspatialite7 libsqlite3-mod-spatialite spatialite-bin python3.8 python3.8-dev
+  - sudo apt-get -y install python3.6 python3.6-dev python3.7 python3.7-dev python3.8 python3.8-dev libspatialite7 libsqlite3-mod-spatialite spatialite-bin
+  - sudo apt-get -y install binutils libproj19 libproj-dev proj-bin proj-data libgeos-dev libgeos-c1v5 libgeos-3.8.0 gdal-bin gdal-data libgdal-dev libgdal26
   - pip install GDAL==$(gdal-config --version) --global-option=build_ext --global-option="-I/usr/include/gdal"
 
 addons:
@@ -19,7 +22,24 @@ addons:
     update: true
 
 env:
-  - TOX_ENV=py38-django-2
+  - TOX_ENV=py36-django-20
+  - TOX_ENV=py36-django-21
+  - TOX_ENV=py36-django-22
+  - TOX_ENV=py36-django-30
+  - TOX_ENV=py36-django-31
+  - TOX_ENV=py36-django-32
+  - TOX_ENV=py37-django-20
+  - TOX_ENV=py37-django-21
+  - TOX_ENV=py37-django-22
+  - TOX_ENV=py37-django-30
+  - TOX_ENV=py37-django-31
+  - TOX_ENV=py37-django-32
+  - TOX_ENV=py38-django-20
+  - TOX_ENV=py38-django-21
+  - TOX_ENV=py38-django-22
+  - TOX_ENV=py38-django-30
+  - TOX_ENV=py38-django-31
+  - TOX_ENV=py38-django-32
 
 matrix:
   fast_finish: true

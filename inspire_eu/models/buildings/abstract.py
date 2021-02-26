@@ -149,8 +149,8 @@ class AbstractBuildingGeometry2D(models.Model):
     """Building geometry 2D
 
     Definition
-        This data types includes the geometry of the building and metadata information about which element of the building
-        was captured and how.
+        This data types includes the geometry of the building and metadata information about which element of
+        the building was captured and how.
 
     References
         https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/index.htm?goto=2:3:2:1:7904
@@ -283,8 +283,8 @@ class AbstractOtherConstruction(AbstractConstruction):
         NOTE 1: the main difference between a building and an other construction is the fact that an other construction
         does not need to be enclosed.
 
-        NOTE 2: the other constructions to be considered under scope of theme Buildings are the constructions that are not
-        present in another INSPIRE theme and that are necessary for environmental use cases, such as the ones
+        NOTE 2: the other constructions to be considered under scope of theme Buildings are the constructions that are
+        not present in another INSPIRE theme and that are necessary for environmental use cases, such as the ones
         considered in this data specification.
 
         EXAMPLES: bridge, acoustic fence, city wall.

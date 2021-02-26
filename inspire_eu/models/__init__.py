@@ -23,8 +23,6 @@ INSPIRE_EU_THEMES
 import logging
 
 from django.conf import settings
-from django.contrib.gis.db import models
-from django.utils.translation import ugettext_lazy as _
 
 log = logging.getLogger(__name__)
 

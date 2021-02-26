@@ -32,6 +32,6 @@ Core Models
    :inherited-members:
    :exclude-members: __init__,clean,clean_fields,full_clean,get_deferred_fields,refresh_from_db,save,save_base,serializable_value,validate_unique,DoesNotExist, MultipleObjectsReturned,BaseModel
 
-"""
+"""  # noqa
 
 __version__ = "0.2.0"

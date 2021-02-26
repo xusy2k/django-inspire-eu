@@ -3,7 +3,6 @@ import logging
 
 import feedparser
 import requests
-from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.utils.translation import ugettext as _
 from slugify import slugify
@@ -316,7 +315,7 @@ class Command(BaseCommand):
             "CountingUnitValue",
             "DesignationValue",
         ]
-        error_keys = ["ClassificationItemTypeValue"]
+        error_keys = ["ClassificationItemTypeValue"]  # noqa
         # qs = qs.filter(code__in=error_keys)
         for code_list in qs:
             url = code_list.link
@@ -401,7 +400,7 @@ class Command(BaseCommand):
                         if self.debug_console:
                             print(f"Updated CodeListValue: '{code_list_value}'")
                     except Exception as e:
-                        errors["data"].append(code)
+                        errors["data"].append(f"{code}: {e}")
         # print("\n".join(errors["key"]))
         print("End CodeListValue")
         print("")
@@ -435,7 +434,7 @@ class Command(BaseCommand):
             },
         )
         try:
-            _lang = LANGUAGES_AVAILABLE[language]
+            _lang = LANGUAGES_AVAILABLE[language]  # noqa
         except KeyError:
             print()
             print(f"ERROR: Language '{language}' is not availbale")

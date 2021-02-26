@@ -106,7 +106,7 @@ class AbstractGeographicalName(models.Model):
 
     References
         `GeographicalName Class <https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/index.htm?goto=2:1:6:2:7246>`_
-    """
+    """  # noqa
 
     language = models.CharField(
         max_length=64,

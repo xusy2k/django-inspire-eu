@@ -22,22 +22,24 @@ Quickstart
 
 1.  Install Django Inspire EU:
 
-    > At the command line:
+    > -   Stable version:
     >
-    >     $ easy_install django-inspire-eu
+    >     > At the command line:
+    >     >
+    >     >     $ easy_install django-inspire-eu
+    >     >
+    >     > Or, if you have virtualenvwrapper installed:
+    >     >
+    >     >     $ mkvirtualenv django-inspire-eu
+    >     >     $ pip install django-inspire-eu
     >
-    > Or, if you have virtualenvwrapper installed:
+    > -   Development version:
     >
-    >     $ mkvirtualenv django-inspire-eu
-    >     $ pip install django-inspire-eu
+    >     > ``` {.sourceCode .bash}
+    >     > $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
+    >     > ```
     >
-    > Development version:
-    >
-    > ``` {.sourceCode .bash}
-    > $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
-    > ```
-
-2.  Add it to your \`INSTALLED\_APPS\`:
+2.  Add it to your _INSTALLED\_APPS_:
 
     > ``` {.sourceCode .python}
     > INSTALLED_APPS = (
@@ -47,7 +49,41 @@ Quickstart
     > )
     > ```
 
-3.  Add Django Inspire EU's URL patterns:
+3.  Customize [settings](https://django-inspire-eu.readthedocs.io/en/latest/settings.html):
+
+    > -   [INSPIRE\_EU\_THEMES](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#inspire-eu-themes)
+    > -   [INSPIRE\_EU\_DEFAULT\_SRID](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#inspire-eu-default-srid)
+    > -   [INSPIRE\_EU\_BASE\_MODEL](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#inspire-eu-base-model)
+    > -   [MIGRATION\_MODULES](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#migration-modules): **Very important** if you
+    >     want avoid problems with migrations files
+
+
+4.  Make and execute migrations:
+
+    > ``` {.sourceCode .bash}
+    > python manage.py makemigrations
+    > python manage.py migrate
+    > ```
+
+5.  Populate base models:
+
+    > This django command fetch values from
+    > <https://inspire.ec.europa.eu>. In particular: Status:
+    > ([valid](https://inspire.ec.europa.eu/registry/status/valid),
+    > [invalid](https://inspire.ec.europa.eu/registry/status/invalid),
+    > [retired](https://inspire.ec.europa.eu/registry/status/retired)),
+    > [Theme](https://inspire.ec.europa.eu/theme/),
+    > [Application
+    > Schema](https://inspire.ec.europa.eu/applicationschema/),
+    > [Code
+    > List](https://inspire.ec.europa.eu/codelist/) and
+    > For each Code List key, fetch all its Code List Values
+    >
+    > ``` {.sourceCode .bash}
+    > python manage.py load_initial_inspire [-l <language>]  # Default: en
+    > ```
+
+6.  Add Django Inspire EU's URL patterns:
 
     > ``` {.sourceCode .python}
     > from inspire_eu import urls as inspire_eu_urls
@@ -58,37 +94,6 @@ Quickstart
     >     ...
     > ]
     > ```
-
-4.  Customize [settings](settings):
-
-    > -   settings:INSPIRE\_EU\_THEMES
-    > -   settings:INSPIRE\_EU\_DEFAULT\_SRID
-    > -   settings:INSPIRE\_EU\_BASE\_MODEL
-    > -   settings:MIGRATION\_MODULES: **Very important** if you
-    >     want avoid problems with migrations files
-
-5.  Make and execute migrations:
-
-    > ``` {.sourceCode .bash}
-    > python manage.py makemigrations
-    > python manage.py migrate
-    > ```
-
-6.  Populate base models:
-
-This django command fetch values from <https://inspire.ec.europa.eu>. In
-particular: Status:
-([valid](https://inspire.ec.europa.eu/registry/status/valid),
-[invalid](https://inspire.ec.europa.eu/registry/status/invalid),
-[retired](https://inspire.ec.europa.eu/registry/status/retired)),
-[Theme](https://inspire.ec.europa.eu/theme/theme.en.json), [Application
-Schema](https://inspire.ec.europa.eu/applicationschema/applicationschema.en.json),
-[Code List](https://inspire.ec.europa.eu/codelist/codelist.en.atom) and
-For each Code List key, fetch all its Code List Values
-
-> ``` {.sourceCode .bash}
-> python manage.py load_initial_inspire [-l <language>]  # Default: en
-> ```
 
 Working example
 ---------------
@@ -118,3 +123,14 @@ Tools used in rendering this package:
 
 -   [Cookiecutter](https://github.com/audreyr/cookiecutter)
 -   [cookiecutter-djangopackage](https://github.com/pydanny/cookiecutter-djangopackage)
+
+History
+-------
+
+### 0.2.0 (2021-02-26)
+
+-   First release on PyPI.
+
+### 0.1.0 (2021-02-07)
+
+-   First release on GitHub.

@@ -20,7 +20,7 @@ log = logging.getLogger(__name__)
 
 try:
     BaseInspireEUModel = get_inspire_eu_base_model()
-except AttributeError as e:
+except AttributeError:
 
     class BaseInspireEUModel(models.Model):
         """Base Model
@@ -319,7 +319,7 @@ class CodeListValue(BaseInspireEUModel):
         )
         try:
             clv = CodeListValue.objects.get(**kw)
-        except CodeListValue.DoesNotExist as e:
+        except CodeListValue.DoesNotExist:
             if create:
                 kw_new = dict(
                     {
@@ -360,7 +360,7 @@ class UnitOfMeasure(BaseInspireEUModel):
     References
         * `UnitOfMeasure Class <https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/index.htm?goto=1:3:7:1:1:1:1397>`_
         * `MeasureType Class <https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/index.htm?goto=1:3:7:1:1:1:1392>`_
-    """
+    """  # noqa
 
     MEASURE_TYPE_UNKNOWN = ""
     MEASURE_TYPE_AREA = _("area")

@@ -48,7 +48,7 @@ Models
    :inherited-members:
    :exclude-members: __init__,clean,clean_fields,full_clean,get_deferred_fields,refresh_from_db,save,save_base,serializable_value,validate_unique
 
-"""
+"""  # noqa
 
 import logging
 
@@ -115,7 +115,7 @@ if "cadastral_parcels" in INSPIRE_EU_THEMES and INSPIRE_EU_THEMES["cadastral_par
             * https://inspire.ec.europa.eu/schemas/cp/4.0/CadastralParcels.xsd
             * https://inspire.ec.europa.eu/data-model/approved/r4618-ir/html/index.htm?goto=2:1:3:1:7209
             * https://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_CP_v3.0.1.pdf
-        """
+        """  # noqa
 
         cadastral_zoning = models.ForeignKey(
             CadastralZoning,

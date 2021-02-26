@@ -33,20 +33,22 @@ Quickstart
 
 #. Install Django Inspire EU:
 
-    At the command line::
+    * Stable version:
 
-        $ easy_install django-inspire-eu
+        At the command line::
 
-    Or, if you have virtualenvwrapper installed::
+            $ easy_install django-inspire-eu
 
-        $ mkvirtualenv django-inspire-eu
-        $ pip install django-inspire-eu
+        Or, if you have virtualenvwrapper installed::
 
-    Development version:
+            $ mkvirtualenv django-inspire-eu
+            $ pip install django-inspire-eu
 
-    .. code-block:: bash
+    * Development version:
 
-        $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
+        .. code-block:: bash
+
+            $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
 
 
 #. Add it to your `INSTALLED_APPS`:
@@ -58,6 +60,34 @@ Quickstart
             'inspire_eu.apps.InspireEuConfig',
             ...
         )
+
+#. Customize :doc:`settings <settings>`
+
+    * :ref:`settings:``INSPIRE_EU_THEMES```
+    * :ref:`settings:``INSPIRE_EU_DEFAULT_SRID```
+    * :ref:`settings:``INSPIRE_EU_BASE_MODEL```
+    * :ref:`settings:``MIGRATION_MODULES```: **Very important** if you want avoid problems with migrations files
+
+#. Make and execute migrations:
+
+    .. code-block:: bash
+
+        python manage.py makemigrations
+        python manage.py migrate
+
+
+#. Populate base models:
+
+    This django command fetch values from https://inspire.ec.europa.eu. In particular: Status:
+    (`valid <https://inspire.ec.europa.eu/registry/status/valid>`_, `invalid <https://inspire.ec.europa.eu/registry/status/invalid>`_,
+    `retired <https://inspire.ec.europa.eu/registry/status/retired>`_), `Theme <https://inspire.ec.europa.eu/theme/>`_,
+    `Application Schema <https://inspire.ec.europa.eu/applicationschema/>`_,
+    `Code List <https://inspire.ec.europa.eu/codelist/>`_ and For each Code List key, fetch all its Code List Values
+
+    .. code-block:: bash
+
+        python manage.py load_initial_inspire [-l <language>]  # Default: en
+
 
 #. Add Django Inspire EU's URL patterns:
 
@@ -71,33 +101,6 @@ Quickstart
             ...
         ]
 
-#. Customize :doc:`settings <settings>`
-
-    * :ref:`settings:``INSPIRE_EU_THEMES```
-    * :ref:`settings:``INSPIRE_EU_DEFAULT_SRID```
-    * :ref:`settings:``INSPIRE_EU_BASE_MODEL```
-    * :ref:`settings:``MIGRATION_MODULES```: **Very important** if you want avoid problems with migrations files
-
-
-#. Make and execute migrations:
-
-    .. code-block:: bash
-
-        python manage.py makemigrations
-        python manage.py migrate
-
-
-#. Populate base models:
-
-This django command fetch values from https://inspire.ec.europa.eu. In particular: Status:
-(`valid <https://inspire.ec.europa.eu/registry/status/valid>`_, `invalid <https://inspire.ec.europa.eu/registry/status/invalid>`_,
-`retired <https://inspire.ec.europa.eu/registry/status/retired>`_), `Theme <https://inspire.ec.europa.eu/theme/theme.en.json>`_,
-`Application Schema <https://inspire.ec.europa.eu/applicationschema/applicationschema.en.json>`_,
-`Code List <https://inspire.ec.europa.eu/codelist/codelist.en.atom>`_ and For each Code List key, fetch all its Code List Values
-
-    .. code-block:: bash
-
-        python manage.py load_initial_inspire [-l <language>]  # Default: en
 
 
 Working example

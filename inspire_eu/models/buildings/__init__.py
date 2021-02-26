@@ -48,7 +48,7 @@ Models
    :inherited-members:
    :exclude-members: __init__,clean,clean_fields,full_clean,get_deferred_fields,refresh_from_db,save,save_base,serializable_value,validate_unique
 
-"""
+"""  # noqa
 
 import logging
 
@@ -179,7 +179,7 @@ if "buildings" in INSPIRE_EU_THEMES and INSPIRE_EU_THEMES["buildings"]:
         EXAMPLE 3: Reference to the system recording the building permits. The reference to the building permits may be
                 used to find detailed information about the building physical and temporal aspects.
 
-        """
+        """  # noqa
 
         building = models.ForeignKey(Building, on_delete=models.PROTECT)
 

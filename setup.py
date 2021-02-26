@@ -45,8 +45,7 @@ if sys.argv[-1] == "tag":
     os.system("git push --tags")
     sys.exit()
 
-readme = open("README.rst").read()
-history = open("HISTORY.rst").read().replace(".. :changelog:", "")
+readme = open("README.md").read()
 requirements = open("requirements.txt").readlines()
 
 setup(
@@ -56,7 +55,8 @@ setup(
         """Django implementation from the the themes of infrastructure for spatial information """
         """in Europe (INSPIRE)"""
     ),
-    long_description=readme + "\n\n" + history,
+    long_description=readme,
+    long_description_content_type="text/markdown",
     author="Jesús Zoyo",
     author_email="xus@zoyolabs.com",
     url="https://github.com/xusy2k/django-inspire-eu",
@@ -69,14 +69,15 @@ setup(
     zip_safe=False,
     keywords="django-inspire-eu",
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Framework :: Django :: 2",
+        "Development Status :: 4 - Beta",
+        "Framework :: Django :: 2.0",
+        "Framework :: Django :: 2.1",
+        "Framework :: Django :: 2.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
     ],
 )
