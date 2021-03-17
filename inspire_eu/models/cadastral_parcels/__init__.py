@@ -61,9 +61,10 @@ log = logging.getLogger(__name__)
 
 
 if "cadastral_parcels" in INSPIRE_EU_THEMES and INSPIRE_EU_THEMES["cadastral_parcels"]:
+    from ...models import BaseInspireEUModel
     from .abstract import AbstractCadastralParcel, AbstractCadastralZoning
 
-    class CadastralZoning(AbstractCadastralZoning, models.Model):
+    class CadastralZoning(BaseInspireEUModel, AbstractCadastralZoning, models.Model):
         """CadastralZoning
 
         Definition
@@ -95,7 +96,7 @@ if "cadastral_parcels" in INSPIRE_EU_THEMES and INSPIRE_EU_THEMES["cadastral_par
         def __str__(self):
             return "%s %s" % (self.label, self.national_cadastal_zoning_reference)
 
-    class CadastralParcel(AbstractCadastralParcel, models.Model):
+    class CadastralParcel(BaseInspireEUModel, AbstractCadastralParcel, models.Model):
         """Cadastral Parcel
 
         Definition
@@ -132,4 +133,4 @@ if "cadastral_parcels" in INSPIRE_EU_THEMES and INSPIRE_EU_THEMES["cadastral_par
             verbose_name_plural = _("Cadastral Parcels")
 
         def __str__(self):
-            return "%s %s" % (self.label, self.national_cadastal_reference)
+            return "%s %s" % (self.label, self.national_cadastral_reference)

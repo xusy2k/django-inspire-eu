@@ -207,7 +207,7 @@ class AbstractCadastralParcel(
         ),
     )
 
-    national_cadastal_reference = models.CharField(
+    national_cadastral_reference = models.CharField(
         max_length=32,
         db_index=True,
         help_text=_(
