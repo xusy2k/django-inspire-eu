@@ -1,7 +1,7 @@
 Django Inspire EU
 =================
 
-[![Django 2.X](https://img.shields.io/badge/django-2.0,%202.1,%202.2,%203.0,%203.1-092E20.svg)](https://www.djangoproject.com)
+[![Django 2.0, 2.1, 2.2, 3.0, 3.1](https://img.shields.io/badge/django-2.0,%202.1,%202.2,%203.0,%203.1-092E20.svg)](https://www.djangoproject.com)
 [![Documentation Status](https://readthedocs.org/projects/django-inspire-eu/badge/?version=latest)](https://django-inspire-eu.readthedocs.io/en/latest/?badge=latest)
 [![image](https://badge.fury.io/py/django-inspire-eu.svg)](https://badge.fury.io/py/django-inspire-eu)
 [![See Build Status on Travis CI](https://travis-ci.com/xusy2k/django-inspire-eu.svg?branch=master)](https://travis-ci.com/xusy2k/django-inspire-eu)
@@ -22,13 +22,8 @@ Quickstart
 
 1.  Install Django Inspire EU:
 
-    > -   Stable version:
-    >
-    >     > At the command line:
-    >     >
-    >     >     $ easy_install django-inspire-eu
-    >     >
-    >     > Or, if you have virtualenvwrapper installed:
+    > -   Stable version, preferably within a virtual environment:
+    >    
     >     >
     >     >     $ mkvirtualenv django-inspire-eu
     >     >     $ pip install django-inspire-eu
@@ -44,7 +39,7 @@ Quickstart
     > ``` {.sourceCode .python}
     > INSTALLED_APPS = (
     >     ...
-    >     'inspire_eu.apps.InspireEuConfig',
+    >     "inspire_eu.apps.InspireEuConfig",
     >     ...
     > )
     > ```
@@ -73,10 +68,8 @@ Quickstart
     > [invalid](https://inspire.ec.europa.eu/registry/status/invalid),
     > [retired](https://inspire.ec.europa.eu/registry/status/retired)),
     > [Theme](https://inspire.ec.europa.eu/theme/),
-    > [Application
-    > Schema](https://inspire.ec.europa.eu/applicationschema/),
-    > [Code
-    > List](https://inspire.ec.europa.eu/codelist/) and
+    > [Application Schema](https://inspire.ec.europa.eu/applicationschema/),
+    > [Code List](https://inspire.ec.europa.eu/codelist/) and
     > For each Code List key, fetch all its Code List Values
     >
     > ``` {.sourceCode .bash}
@@ -90,7 +83,7 @@ Quickstart
     >
     > urlpatterns = [
     >     ...
-    >     url(r'^', include(inspire_eu_urls)),
+    >     url(r"^", include(inspire_eu_urls)),
     >     ...
     > ]
     > ```
@@ -126,6 +119,12 @@ Tools used in rendering this package:
 
 History
 -------
+
+### 0.2.1 (2021-03-19)
+
+-   Added BaseInspireEUModel at CadastralZoning and CadastralParcel
+-   Typo fixed AbstractCadastralParcel.national\_cadastal\_reference to
+    AbstractCadastralParcel.national\_cadastral\_reference
 
 ### 0.2.0 (2021-02-26)
 

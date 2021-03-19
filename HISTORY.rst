@@ -3,6 +3,12 @@
 History
 -------
 
+0.2.1 (2021-03-19)
+++++++++++++++++++
+
+* Added BaseInspireEUModel at CadastralZoning and CadastralParcel
+* Typo fixed AbstractCadastralParcel.national_cadastal_reference to AbstractCadastralParcel.national_cadastral_reference
+
 0.2.0 (2021-02-26)
 ++++++++++++++++++
 

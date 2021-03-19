@@ -33,13 +33,7 @@ Quickstart
 
 #. Install Django Inspire EU:
 
-    * Stable version:
-
-        At the command line::
-
-            $ easy_install django-inspire-eu
-
-        Or, if you have virtualenvwrapper installed::
+    * Stable version, preferably within a virtual environment:
 
             $ mkvirtualenv django-inspire-eu
             $ pip install django-inspire-eu
@@ -57,7 +51,7 @@ Quickstart
 
         INSTALLED_APPS = (
             ...
-            'inspire_eu.apps.InspireEuConfig',
+            "inspire_eu.apps.InspireEuConfig",
             ...
         )
 
@@ -97,7 +91,7 @@ Quickstart
 
         urlpatterns = [
             ...
-            url(r'^', include(inspire_eu_urls)),
+            url(r"^", include(inspire_eu_urls)),
             ...
         ]
 
