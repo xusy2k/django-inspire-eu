@@ -23,7 +23,7 @@ Quickstart
 1.  Install Django Inspire EU:
 
     > -   Stable version, preferably within a virtual environment:
-    >    
+    >
     >     >
     >     >     $ mkvirtualenv django-inspire-eu
     >     >     $ pip install django-inspire-eu
