@@ -120,6 +120,11 @@ Tools used in rendering this package:
 History
 -------
 
+### 0.2.2 (2021-06-01)
+
+-   Fixed related_name and related_query_name at AbstractOfficialArea model
+-   Updated python-slugify according its documentation
+
 ### 0.2.1 (2021-03-19)
 
 -   Added BaseInspireEUModel at CadastralZoning and CadastralParcel
