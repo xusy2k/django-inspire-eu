@@ -378,6 +378,8 @@ class AbstractOfficialArea(models.Model):
             "OfficialAreaReferenceValue, this code list having to be defined at Member State "
             "level)..",
         ),
+        related_name="%(app_label)s_%(class)s_official_area_reference",
+        related_query_name="%(app_label)s_%(class)s_official_area_references",
     )
     value = models.FloatField(blank=True, help_text=_("The value of the official area"))
     # value_uom = models.CharField(max_length=1,
@@ -385,6 +387,8 @@ class AbstractOfficialArea(models.Model):
         UnitOfMeasure,
         on_delete=models.PROTECT,
         blank=True,
+        related_name="%(app_label)s_%(class)s_value_uom",
+        related_query_name="%(app_label)s_%(class)s_value_uoms",
     )
     height_parameter = models.FloatField(
         blank=True,
@@ -401,6 +405,8 @@ class AbstractOfficialArea(models.Model):
         blank=True,
         null=True,
         help_text=_("Value of Elevation shall be given in meters"),
+        related_name="%(app_label)s_%(class)s_height_parameter_uom",
+        related_query_name="%(app_label)s_%(class)s_height_parameter_uoms",
     )
 
     class Meta:
@@ -630,7 +636,8 @@ class AbstractEnergyPerformance(models.Model):
         help_text=_(
             "The date when the energy performance of the building or building unit was assessed",
         ),
-        related_name="energy_performance_value",
+        related_name="%(app_label)s_%(class)s_energy_performance_value",
+        related_query_name="%(app_label)s_%(class)s_energy_performance_values",
     )
     date_of_assessment = models.DateTimeField(
         blank=True,
