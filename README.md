@@ -1,7 +1,7 @@
 Django Inspire EU
 =================
 
-[![Django 2.0, 2.1, 2.2, 3.0, 3.1](https://img.shields.io/badge/django-2.0,%202.1,%202.2,%203.0,%203.1-092E20.svg)](https://www.djangoproject.com)
+[![Django 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 4.0, 4.1, 4.2, 5.0, 5.1, 5.2](https://img.shields.io/badge/django-2.0,%202.1,%202.2,%203.0,%203.1,%203.2,%204.0,%204.1,%204.2,%205.0,%205.1,%205.2-092E20.svg)](https://www.djangoproject.com)
 [![Documentation Status](https://readthedocs.org/projects/django-inspire-eu/badge/?version=latest)](https://django-inspire-eu.readthedocs.io/en/latest/?badge=latest)
 [![image](https://badge.fury.io/py/django-inspire-eu.svg)](https://badge.fury.io/py/django-inspire-eu)
 [![See Build Status on Travis CI](https://travis-ci.com/xusy2k/django-inspire-eu.svg?branch=master)](https://travis-ci.com/xusy2k/django-inspire-eu)
@@ -34,6 +34,7 @@ Quickstart
     >     > $ pip install -e git+https://github.com/xusy2k/django-inspire-eu.git@master#egg=django-inspire_eu
     >     > ```
     >
+
 2.  Add it to your _INSTALLED\_APPS_:
 
     > ``` {.sourceCode .python}
@@ -44,7 +45,7 @@ Quickstart
     > )
     > ```
 
-3.  Customize [settings](https://django-inspire-eu.readthedocs.io/en/latest/settings.html):
+3. Customize [settings](https://django-inspire-eu.readthedocs.io/en/latest/settings.html):
 
     > -   [INSPIRE\_EU\_THEMES](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#inspire-eu-themes)
     > -   [INSPIRE\_EU\_DEFAULT\_SRID](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#inspire-eu-default-srid)
@@ -52,15 +53,14 @@ Quickstart
     > -   [MIGRATION\_MODULES](https://django-inspire-eu.readthedocs.io/en/latest/settings.html#migration-modules): **Very important** if you
     >     want avoid problems with migrations files
 
-
-4.  Make and execute migrations:
+4. Make and execute migrations:
 
     > ``` {.sourceCode .bash}
     > python manage.py makemigrations
     > python manage.py migrate
     > ```
 
-5.  Populate base models:
+5. Populate base models:
 
     > This django command fetch values from
     > <https://inspire.ec.europa.eu>. In particular: Status:
@@ -76,7 +76,7 @@ Quickstart
     > python manage.py load_initial_inspire [-l <language>]  # Default: en
     > ```
 
-6.  Add Django Inspire EU's URL patterns:
+6. Add Django Inspire EU's URL patterns:
 
     > ``` {.sourceCode .python}
     > from inspire_eu import urls as inspire_eu_urls
@@ -119,6 +119,12 @@ Tools used in rendering this package:
 
 History
 -------
+
+### 0.2.3 (2024-07-03)
+
+-   Checked `ugettext` and `gettext` for compatibility with Django 4.0 and upper
+-   python-slugify optional, using django slugify as fallback
+-   Set django.db.models.BigAutoField
 
 ### 0.2.2 (2021-06-01)
 
