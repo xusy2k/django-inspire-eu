@@ -1,8 +1,14 @@
 import logging
 
 from django.contrib.gis.db import models
-from django.utils.translation import ugettext_lazy as _
-from slugify import slugify
+try:
+    from django.utils.translation import gettext_lazy as _
+except ImportError:
+    from django.utils.translation import ugettext_lazy as _
+try:
+    from slugify import slugify
+except ImportError:
+    from django.utils.text import slugify
 
 from ..utils import get_inspire_eu_base_model
 

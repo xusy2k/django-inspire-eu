@@ -4,8 +4,17 @@ import logging
 import feedparser
 import requests
 from django.core.management.base import BaseCommand
-from django.utils.translation import ugettext as _
-from slugify import slugify
+
+try:
+    from django.utils.translation import gettext as _
+except ImportError:
+    from django.utils.translation import ugettext as _
+
+try:
+    from slugify import slugify
+except ImportError:
+    from django.utils.text import slugify
+
 
 from ...models import ApplicationSchema, CodeList, CodeListValue, Status, Theme
 

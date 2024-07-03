@@ -3,12 +3,18 @@
 History
 -------
 
+0.2.3 (2024-07-03)
+++++++++++++++++++
+
+* Checked `ugettext` and `gettext` for compatibility with Django 4.0 and upper
+* python-slugify optional, using django slugify as fallback
+* Set django.db.models.BigAutoField
+
 0.2.2 (2021-06-01)
 ++++++++++++++++++
 
 * Fixed related_name and related_query_name at AbstractOfficialArea model
 * Updated python-slugify according its documentation
-
 
 0.2.1 (2021-03-19)
 ++++++++++++++++++
