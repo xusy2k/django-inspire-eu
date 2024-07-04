@@ -1,6 +1,7 @@
 # Your app requirements.
 -r ../requirements_tox.txt
-Django>=2,<3
+
+Django<6
 
 # Your app in editable mode.
 -e ../

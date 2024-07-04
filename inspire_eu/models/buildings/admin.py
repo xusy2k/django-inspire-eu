@@ -2,6 +2,13 @@ import logging
 
 from django.contrib.gis import admin
 
+try:
+    # Django < 4.0
+    # https://code.djangoproject.com/ticket/27674
+    GISModelAdmin = admin.OSMGeoAdmin
+except AttributeError:
+    GISModelAdmin = admin.GISModelAdmin
+
 from . import (
     Building,
     BuildingCurrentUse,
@@ -18,7 +25,7 @@ log = logging.getLogger(__name__)
 
 
 @admin.register(Building)
-class BuildingAdmin(admin.OSMGeoAdmin):
+class BuildingAdmin(GISModelAdmin):
     pass
 
 
