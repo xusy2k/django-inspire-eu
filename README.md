@@ -120,6 +120,13 @@ Tools used in rendering this package:
 History
 -------
 
+### 0.2.4 (2024-07-04)
+
+-   Made optional `python-slugify` and `feedparser`
+-   Fixed documentation's build
+-   Upgrade of `django-example`
+-   Fixed old `OSMGeoAdmin` for Django 4.0 and newer
+
 ### 0.2.3 (2024-07-03)
 
 -   Checked `ugettext` and `gettext` for compatibility with Django 4.0 and upper

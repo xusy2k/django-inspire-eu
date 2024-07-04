@@ -1,0 +1,14 @@
+# Additional test requirements go here
+Django<6
+Sphinx==7.3.7  # https://github.com/sphinx-doc/sphinx
+sphinx-autobuild==2024.4.16 # https://github.com/GaretJax/sphinx-autobuild
+sphinx-autodoc-annotation==1.0.post1  # https://github.com/nicolashainaux/sphinx-autodoc-annotation
+sphinxcontrib-applehelp==1.0.8
+sphinxcontrib-devhelp==1.0.6
+sphinxcontrib-htmlhelp==2.0.5
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.7
+sphinxcontrib-serializinghtml==1.1.10
+sphinxcontrib-django==2.5 # https://sphinxcontrib-django.readthedocs.io/en/latest/
+sphinxcontrib-napoleon==0.7
+sphinx-rtd-theme==2.0.0 # https://sphinx-rtd-theme.readthedocs.io/en/stable/
