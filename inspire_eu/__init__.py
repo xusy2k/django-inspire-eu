@@ -34,4 +34,4 @@ Core Models
 
 """  # noqa
 
-__version__ = "0.2.4-rc1"
+__version__ = "0.2.4"
